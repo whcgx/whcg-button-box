@@ -1,0 +1,24 @@
+{
+  "name": "@whcg/whcg-button-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es6.js",
+  "scripts": {
+    "build": "rollup -c"
+ },
+  "files": [
+    "dist",
+    "theme"
+ ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whcgx/whcg-button-box.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whcgx/whcg-button-box/issues"
+  },
+  "homepage": "https://github.com/whcgx/whcg-button-box#readme"
+}
