@@ -6,11 +6,11 @@
   "module": "dist/index.es6.js",
   "scripts": {
     "build": "rollup -c"
- },
+  },
   "files": [
     "dist",
     "theme"
- ],
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/whcgx/whcg-button-box.git"
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/whcgx/whcg-button-box/issues"
   },
-  "homepage": "https://github.com/whcgx/whcg-button-box#readme"
+  "homepage": "https://github.com/whcgx/whcg-button-box#readme",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.5",
+    "@whcg/whcg-button": "^1.2.1"
+  }
 }
